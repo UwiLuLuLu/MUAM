@@ -1,0 +1,310 @@
+
+
+@media (max-width: 992px) {
+  .main__page {
+    background: $bgc;
+  }
+
+  .border-left {
+    border: none;
+  }
+
+  .center-line {
+    width: 60%;
+  }
+
+  #sub {
+    height: 156px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .stages__text {
+    font-size: 15px;
+  }
+
+  #line {
+    display: none;
+  }
+
+  .header {
+    padding-top: 30px;
+
+    .title {
+      text-align: left;
+      padding-left: 30px;
+    }
+
+    .subtitle {
+      padding-left: 30px;
+      margin-top: 40px;
+      text-align: left;
+      width: 50%;
+    }
+
+    &::before {
+      display: none;
+    }
+
+    &::after {
+      animation: header__line-after-anim-mobile 8s linear infinite;
+    }
+
+    .menu__long-line {
+      display: none;
+    }
+
+    .menu__button {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      right: 5%;
+      margin-bottom: 100px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    padding-top: 0;
+  }
+
+  .upper-side {
+    padding-left: 0px;
+  }
+
+  .border-left {
+    border: none;
+  }
+
+  .center-line {
+    display: none;
+  }
+
+  #examples {
+    width: 80% !important;
+    height: auto !important;
+  }
+
+  .stages__text {
+    font-size: 15px;
+  }
+
+  .text {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .title {
+    max-width: 250px;
+  }
+
+  .titles {
+    max-width: 250px;
+
+    .pretitle {
+      text-align: center;
+      padding-left: 90px;
+
+      &::before {
+        width: 50px;
+        transform: translate(-30px, 13px);
+      }
+
+      &#locations {
+        &::before {
+          transform: translate(-70px, 13px);
+        }
+      }
+    }
+  }
+
+  .sub__block {
+    width: 15%;
+  }
+
+  /* Download 
+  ================*/
+  .download__container {
+    width: 358px;
+    justify-content: center;
+    align-items:center;
+    padding-bottom: 120px;
+  }
+
+  .download__text {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0;
+  }
+
+  .download__home {
+    margin-bottom: 45px;
+  }
+
+  .download__os {
+    flex-direction: column;
+    margin-top:55px;
+  }
+
+  .social__item {
+    width: 80px;
+    height: 80px;
+    margin: 15px 0;
+  }
+
+  .social__icon {
+    height: 80px;
+    width: 80px;
+  }
+
+  /* Contact
+  ================*/
+
+  .page{
+    justify-content: flex-start;
+  }
+  
+  .contact__container{
+    justify-content: center;
+    align-items: center;
+    padding-top:155px;
+  }
+  
+
+  .contact__text {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0;
+  }
+
+  .contact__messenger {
+    margin: 35px 0;
+  }
+  
+  .contact__item {
+    width: 42px;
+    height: 42px;
+  }
+
+  .contact__icon {
+    height: 42px;
+    width: 42px;
+    fill: rgba(255, 255, 255, 0.8);
+  }
+
+  /* Entrance 
+  ================*/
+  .registration__container {
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 50px;
+  }
+
+  .registration__container__header {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 150px;
+  }
+
+  .registration__text--active{
+    margin: 25px 0 0 40px;
+    font-size: 48px;
+    align-items: center;
+  }
+
+  .registration__text--inactive{
+    margin-left: 40px;
+    font-size: 48px;
+    align-items: center;
+    padding:0px;
+  }
+  
+  .entrance__agreement {
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 0 100px 0;
+  }
+
+  .corner--entrance{
+    margin: 40px 100px 0;
+  }
+  .entrance__agreement__text {
+    flex-direction: column;
+    order:2;
+  }
+
+  .registration__fast_entering{
+    justify-content: center;
+    margin: 0;  
+  }
+
+  /* Registration 
+  ================*/
+
+  input{
+    width:325px;
+    order:1;
+  }
+
+  .corner--registration{
+    margin: 20px 100px 0;
+  }
+
+  .registration__agreement{
+    margin: -25px 0 0 0;
+  }
+  .registration__agreement__text {
+    flex-direction: column;
+    order:2;
+    max-width:271px;
+    margin-left: 0;
+    margin-bottom: 85px;
+  }
+
+}
+
+@media (max-width: 375px) {
+
+  .download__container {
+    width: 240px;
+  }
+  .download__text{
+    font-size:36px;
+  }
+  
+  .download__os {
+    margin-top:25px;
+  }
+
+  .entrance__agreement {
+    margin-bottom: -35px;
+  }
+
+  .entrance__agreement__text {
+    margin: 39px 0 0 0 ;
+  }
+
+  .registration__home {
+    margin: 0 0 0 40px;
+  }
+  .confirmation__header{
+    margin: 5px 0;
+  }
+  .confirmation__header__text{
+    font-size: 20px;
+  }
+
+  .confirmation__text {
+    font-size: 12px;
+  }
+
+
+  .registration__agreement__text {
+   padding-left: 3px;
+   margin-right: 0;
+   width:250px;
+  }
+}

@@ -1,0 +1,23 @@
+@keyframes menu__line-anim {
+  0% { height: 0; }
+  50% { height: 580px; }
+  100% { height: 0; }
+}
+
+@keyframes header__line-before-anim {
+  0% { height: 0; }
+  50% { height: 80px; }
+  100% { height: 0; }
+}
+
+@keyframes header__line-after-anim {
+  0% { height: 0; }
+  50% { height: 250px; }
+  100% { height: 0; }
+}
+
+@keyframes header__line-after-anim-mobile {
+  0% { height: 0; }
+  50% { height: 90px; }
+  100% { height: 0; }
+}
