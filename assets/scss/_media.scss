@@ -65,8 +65,16 @@
 }
 
 @media (max-width: 576px) {
+  .bg_img {
+    border: none;
+  }
+
   .header {
     padding-top: 0;
+  }
+
+  .logo {
+    justify-content: center;
   }
 
   .upper-side {

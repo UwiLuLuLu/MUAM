@@ -1077,8 +1077,16 @@ i {
 }
 
 @media (max-width: 576px) {
+  .bg_img {
+    border: none;
+  }
   .header {
     padding-top: 0;
+  }
+  .logo {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .upper-side {
     padding-left: 0px;
