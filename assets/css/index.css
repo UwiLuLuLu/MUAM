@@ -364,7 +364,7 @@ input {
   border-left: 2px solid #57d6ff;
   border-right: 2px solid #57d6ff;
   border-radius: 6px;
-  background: url("/assets/images/main1.png") center no-repeat;
+  background: url("../images/main1.png") center no-repeat;
   background-size: cover;
   top: 25px;
 }
@@ -540,9 +540,6 @@ input {
   border-radius: 5px;
   -webkit-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
-}
-
-.sub__btn a {
   color: #141c24 !important;
 }
 
@@ -564,9 +561,6 @@ input {
 
 .active .sub__btn {
   background-color: #141c24;
-}
-
-.active .sub__btn a {
   color: #f1f8ff !important;
 }
 

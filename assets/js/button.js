@@ -8,7 +8,7 @@ if (regBtn) {
       if (regBtn.id === 'reg') {
         regBtn.querySelector('a').href = 'registration_confirmation.html';
       } else if (regBtn.id === 'enter') {
-        regBtn.querySelector('a').href = '/index.html';
+        regBtn.querySelector('a').href = '../index.html';
       } 
     } else {
       regBtn.querySelector('a').href = '#';
